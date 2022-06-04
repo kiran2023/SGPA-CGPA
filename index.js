@@ -7,22 +7,6 @@ nav.addEventListener("click",() =>{
     head.classList.toggle("active");
 });
 
-// Sticky Navbar
-
-const sectionData = document.querySelector(".section-hero");
-
-const navbar = new IntersectionObserver((entries)=>{
-    const entryValue = entries[0];
-
-    !entryValue.isIntersecting?  document.body.classList.add("sticky") : document.body.classList.remove("sticky");  
-
-},
-   {
-        root:null,
-        threshold:0,
-    });
-
-navbar.observe(sectionData);
 
 
 
