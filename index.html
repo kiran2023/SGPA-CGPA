@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="My personal portfolio and skills that i am having and ready to contribute to the IT companies">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Portfolio, Personal Portfolio">
+    <meta name="author" content="KIRAN N">
+
+    <title>Master Minds</title>
+
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html"><img src="images/logo1.png" alt="Logo" class="logo" srcset=""></a>
+        <nav class="navbar">
+            <ul class="navbar-lists">
+                <li><a href="index.html" class="navbar-link home-link">Home</a></li>
+                <li><a href="http://www.ksrceresults.com/" target="_blank" class="navbar-link portfolio-link">Semester
+                        Results</a></li>
+                <li><a href="https://drive.google.com/file/d/1DgiKoQYXXEvJwqj1XnVFJPet23eoFEg8/view?usp=sharing"
+                        download target="_blank" class="navbar-link project-link">Syllabus</a>
+                </li>
+                <li><a href="contact.html" class="navbar-link contact-link">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="menu-bar">
+            <ion-icon class="menu-icon" name="menu-outline"></ion-icon>
+            <ion-icon class="menu-icon" name="close-outline"></ion-icon>
+        </div>
+
+    </header>
+
+    <!-- SGPA SECTION -->
+    <main>
+        <section class="section-hero section">
+            <div class="container grid grid-two-column">
+                <div class="section-hero section-data">
+                    <h1 class="hero-head">SGPA</h1>
+                    <!--only one h1 should be used in total website SOS rule to top th rank in google -->
+                    <p class="hero-para">
+                        Semester Grade Point Average
+                    </p>
+
+                    <div>
+                        <a href="#calculationSelection">
+                            <button class="btn hero-button">Click Here</button>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Column -->
+                <div class="section-hero-image">
+
+                    <picture>
+                        <source srcset="images/portfolio-5.webp" type="image/webp">
+                        <source srcset="images/portfolio-5-min" type="image/jpg">
+                        <img src="images/portfolio-5.jpg" loading="lazy" alt="scenery" srcset="" class="hero-image">
+                    </picture>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- CGPA Data Section-->
+    <section class="section-hero section">
+        <div class="container grid grid-two-column">
+            <div class="section-hero section-data">
+                <h1 class="hero-head">CGPA</h1>
+                <!--only one h1 should be used in total website SOS rule to top th rank in google -->
+                <p class="hero-para">
+                    Cumulative Grade Point Average
+                </p>
+
+                <div>
+                    <a href="#calculationSelection"><button class="btn hero-button">Click Here</button></a>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="section-hero-image">
+
+                <picture>
+                    <source srcset="images/portfolio-3.webp" type="image/webp">
+                    <source srcset="images/portfolio-3-min" type="image/jpg">
+                    <img src="images/portfolio-3.jpg" loading="lazy" alt="scenery" srcset="" class="hero-image">
+                </picture>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SGPA & CGPA -->
+    <section class="section section-portfolio container" id="calculationSelection">
+        <div class="container">
+            <h3 class="common-heading">Choose Below Options</h3>
+        </div>
+        <div class="portfolio-buttons ">
+            <button class="btn p-btn" data-btn-num="1">SGPA</button>
+            <button class="btn p-btn" data-btn-num="2">CGPA</button>
+        </div>
+        <div class="container grid grid-three-column portfolio SgpaCgpaSection">
+            <div class="overlay-image p-btn--1">
+
+                <picture>
+                    <source srcset="images/portfolio-5.webp" type="image/webp">
+                    <source srcset="images/portfolio-5-min.jpg" type="image/jpg">
+                    <img src="images/portfolio-5-min.jpg" loading="lazy" alt="" srcset="">
+                </picture>
+
+                <div class="overlay">
+                    <a href="SemesterSGPA/semester1.html" class="common-heading" style="text-align:center">Semester 1</a>
+                </div>
+            </div>
+            <div class="overlay-image p-btn--1">
+
+                <picture>
+                    <source srcset="images/portfolio-2.webp" type="image/webp">
+                    <source srcset="images/portfolio-2-min.jpg" type="image/jpg">
+                    <img src="images/portfolio-2-min.jpg" loading="lazy" alt="" srcset="">
+                </picture>
+
+                <div class="overlay">
+                    <a href="SemesterSGPA/semester2.html" class="common-heading" style="text-align:center">Semester 2</a>
+                </div>
+            </div>
+            <div class="overlay-image p-btn--1">
+
+                <picture>
+                    <source srcset="images/portfolio-3.webp" type="image/webp">
+                    <source srcset="images/portfolio-3-min.jpg" type="image/jpg">
+                    <img src="images/portfolio-3-min.jpg" loading="lazy" alt="" srcset="">
+                </picture>
+
+                <div class="overlay">
+                    <a href="SemesterSGPA/semester3.html" class="common-heading" style="text-align:center">Semester 3</a>
+                </div>
+            </div>
+            <div class="overlay-image p-btn--1">
+
+                <picture>
+                    <source srcset="images/portfolio-4.webp" type="image/webp">
+                    <source srcset="images/portfolio-4-min.jpg" type="image/jpg">
+                    <img src="images/portfolio-4-min.jpg" loading="lazy" alt="" srcset="">
+                </picture>
+
+                <div class="overlay" style="text-align:center">
+                    <a href="SemesterSGPA/semester4.html" class="common-heading">Semester 4</a>
+                </div>
+            </div>
+            <div class="overlay-image p-btn--1 p-btn--4">
+
+                <picture>
+                    <source srcset="images/portfolio-5.webp" type="image/webp">
+                    <source srcset="images/portfolio-5-min.jpg" type="image/jpg">
+                    <img src="images/portfolio-5-min.jpg" loading="lazy" alt="" srcset="">
+                </picture>
+
+                <div class="overlay">
+                    <a href="SemesterSGPA/semester5.html" class="common-heading" style="text-align:center">Semester 5</a>
+                </div>
+            </div>
+            <div class="overlay-image p-btn--1">
+                <picture>
+                    <source srcset="images/portfolio-2.webp" type="image/webp">
+                    <source srcset="images/portfolio-2-min.jpg" type="image/jpg">
+                    <img src="images/portfolio-2-min.jpg" loading="lazy" alt="" srcset="">
+                </picture>
+
+                <div class="overlay">
+                    <a href="SemesterSGPA/semester6.html" class="common-heading">Semester 6</a>
+                </div>
+            </div>
+            <div class="overlay-image p-btn--1">
+
+                <picture>
+                    <source srcset="images/portfolio-2.webp" type="image/webp">
+                    <source srcset="images/portfolio-2-min.jpg" type="image/jpg">
+                    <img src="images/portfolio-2-min.jpg" loading="lazy" alt="" srcset="">
+                </picture>
+
+                <div class="overlay">
+                    <a href="SemesterSGPA/semester7.html" class="common-heading">Semester 7</a>
+                </div>
+            </div>
+            <div class="overlay-image p-btn--1">
+
+                <picture>
+                    <source srcset="images/portfolio-3.webp" type="image/webp">
+                    <source srcset="images/portfolio-3-min.jpg" type="image/jpg">
+                    <img src="images/portfolio-3-min.jpg" loading="lazy" alt="" srcset="">
+                </picture>
+
+                <div class="overlay">
+                    <a href="SemesterSGPA/semester8.html" class="common-heading">Semester 8</a>
+                </div>
+            </div>
+
+            <div class="overlay-image p-btn--2">
+
+                <picture>
+                    <source srcset="images/portfolio-4.webp" type="image/webp">
+                    <source srcset="images/portfolio-4-min.jpg" type="image/jpg">
+                    <img src="images/portfolio-4-min.jpg" loading="lazy" alt="" srcset="">
+                </picture>
+
+                <div class="overlay">
+                    <a href="SelectingCGPA.html" class="common-heading">CGPA</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Us  -->
+    <section class="section contact-section container">
+        <div class="container">
+            <h3 class="common-heading">Contact Us</h3>
+        </div>
+        <form action="https://formspree.io/f/xeqnpnke" method="POST">
+            <div class="grid grid-two-column">
+                <div class="username">
+                    <label for="username"></label>
+                    <input type="text" name="username" placeholder="Username" autocomplete="off" required>
+                </div>
+                <div class="username">
+                    <label for="email"></label>
+                    <input type="email" name="email" placeholder="user@gmail.com" autocomplete="off" required>
+                </div>
+            </div>
+
+            <div class="">
+                <label for="subject"></label>
+                <input type="text" name="subject" placeholder="Subject" required>
+            </div>
+
+            <div class="">
+                <label for="textarea"></label>
+                <textarea type="textarea" cols="30" row="10" placeholder="Textarea" required name="message"></textarea>
+            </div>
+
+            <button class="btn" type="submit">Submit</button>
+        </form>
+    </section>
+
+
+    <!-- FOOTER SECTION -->
+
+    <footer class="footerData">
+        <div class="container grid grid-three-column">
+            <div class="about">
+                <h3>About Website</h3>
+                <p>Upcoming Regulations Will be added soon - (Regulations 2020)</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span>
+                        <a href="http://www.ksrceresults.com/"target="_blank">Semester Result</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span>
+                        <a href="https://drive.google.com/file/d/1DgiKoQYXXEvJwqj1XnVFJPet23eoFEg8/view?usp=sharing"
+                        download target="_blank">Syllabus</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-help">
+                <h3>Have any Queries Feel Free to Reach out Us</h3>
+                <ul>
+                    <li>
+                        <span>
+                            <ion-icon name="location-outline"></ion-icon>
+                        </span>ERODE,Tamil nadu
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="location-outline"></ion-icon>
+                        </span>
+                        <a href="contact.html" target="_blank">Contact Info</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="call-outline"></ion-icon>
+                        </span>
+                        <a href="tel:+911234567893">1234569878</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </span>
+                        <a href="mailto:cecskiran23@gmail.com">Click Here to Mail Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="container">
+            <div class="f-social-links">
+                <a href="#">
+                    <span>
+                        <ion-icon name="logo-instagram" class="icon"></ion-icon>
+                    </span>
+                </a>
+                <a href="#">
+                    <span>
+                        <ion-icon name="logo-facebook" class="icon"></ion-icon>
+                    </span>
+                </a>
+                <a href="#">
+                    <span>
+                        <ion-icon name="logo-whatsapp" class="icon"></ion-icon>
+                    </span>
+                </a>
+                <a href="#">
+                    <span>
+                        <ion-icon name="logo-github" class="icon"></ion-icon>
+                    </span>
+                </a>
+                <a href="#">
+                    <span>
+                        <ion-icon name="logo-linkedin" class="icon"></ion-icon>
+                    </span>
+                </a>
+                <p style="color:darkgray">&copy;2022 All Rights Reserved by Master Minds - CSE KSRCE</p><br>
+            </div>
+        </section>
+    </footer>
+
+    <!-- Script Section -->
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+
+
+</body>
+
+</html>
