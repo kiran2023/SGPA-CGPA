@@ -6,7 +6,10 @@
     box-sizing: border-box;
     font-family: "Work Sans", sans-serif;
     scroll-behavior: smooth;
-    overflow-x:hidden;
+}
+
+.sgpa{
+ overflow-x : hidden;
 }
 
 
