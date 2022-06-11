@@ -6,11 +6,7 @@
     box-sizing: border-box;
     font-family: "Work Sans", sans-serif;
     scroll-behavior: smooth;
-    max-width:100%;
-}
-
-.sgpa{
- overflow-x : hidden;
+    max-width: 100%;
 }
 
 
@@ -709,6 +705,31 @@ h1 {
 .one select::-ms-expand {
     display: none;
 }
+.first,
+.third,
+.seventh {
+    width: 650px;
+    height: 560px;
+    margin-bottom: 4rem;
+}
+.second{
+    width: 650px;
+    height: 520px;
+    margin-bottom: 4rem;
+}
+.fourth,
+.fifth,
+.sixth{
+    width: 650px;
+    height: 600px;
+    margin-bottom: 4rem;
+}
+.eigth{
+    width: 650px;
+    height: 380px;
+    margin-bottom: 4rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
 
 .first,
 .second,
@@ -720,8 +741,6 @@ h1 {
 .eigth {
     margin: auto;
     text-align: center;
-    width: 650px;
-    height: 580px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(50px);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, .37);
@@ -757,10 +776,6 @@ h1 {
     padding: 3rem 0 3rem 0;
 }
 
-.eigth {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    height: fit-content;
-}
 
 #cgpa0,
 #cgpa1,
@@ -801,14 +816,22 @@ h1 {
     .first,
     .second,
     .third,
+    .seventh {
+        width: 650px;
+        height: 520px;
+        margin-bottom: 4rem;
+    }
     .fourth,
     .fifth,
-    .sixth,
-    .seventh,
-    .eigth {
+    .sixth{
         width: 650px;
-        height: 580px;
-        margin-bottom: 5rem;
+        height: 550px;
+        margin-bottom: 4rem;
+    }
+    .eigth{
+        width: 650px;
+        height: 340px;
+        margin-bottom: 4rem;
     }
 
     .first h1,
@@ -845,14 +868,22 @@ h1 {
     .first,
     .second,
     .third,
+    .seventh {
+        width: 650px;
+        height: 520px;
+        margin-bottom: 4rem;
+    }
     .fourth,
     .fifth,
-    .sixth,
-    .seventh,
-    .eigth {
-        width: 580px;
-        height: 560px;
-        margin-bottom: 5rem;
+    .sixth{
+        width: 650px;
+        height: 550px;
+        margin-bottom: 4rem;
+    }
+    .eigth{
+        width: 650px;
+        height: 340px;
+        margin-bottom: 4rem;
     }
 
     .first h1,
@@ -892,14 +923,22 @@ h1 {
     .first,
     .second,
     .third,
+    .seventh {
+        width: 560px;
+        height: 520px;
+        margin-bottom: 4rem;
+    }
     .fourth,
     .fifth,
-    .sixth,
-    .seventh,
-    .eigth {
+    .sixth{
         width: 560px;
         height: 550px;
-        margin-bottom: 5rem;
+        margin-bottom: 4rem;
+    }
+    .eigth{
+        width: 560px;
+        height: 340px;
+        margin-bottom: 4rem;
     }
 
     .first h1,
@@ -935,14 +974,22 @@ h1 {
     .first,
     .second,
     .third,
+    .seventh {
+        width: 450px;
+        height: 460px;
+        margin-bottom: 4rem;
+    }
     .fourth,
     .fifth,
-    .sixth,
-    .seventh,
-    .eigth {
-        width: 320px;
-        height: 520px;
-        margin-bottom: 5rem;
+    .sixth{
+        width: 450px;
+        height: 500px;
+        margin-bottom: 4rem;
+    }
+    .eigth{
+        width: 450px;
+        height: 300px;
+        margin-bottom: 4rem;
     }
 
     .first h1,
@@ -958,13 +1005,13 @@ h1 {
     }
 
     .one nav {
-        left: 130px;
+        left: 160px;
         font-size: 1rem;
     }
 
     .one select {
         width: 80px;
-        right: 120px;
+        right: 10px;
         padding: 10px 20px;
         border-radius: 40px;
         margin-right:10px ;
@@ -984,18 +1031,26 @@ h1 {
     .sixth .one,
     .seventh .one,
     .eigth {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .first,
     .second,
     .third,
+    .seventh {
+        width: 300px;
+        height: 460px;
+        margin-bottom: 4rem;
+    }
     .fourth,
     .fifth,
-    .sixth,
-    .seventh,
-    .eigth {
+    .sixth{
         width: 300px;
-        height: 480px;
+        height: 500px;
+        margin-bottom: 4rem;
+    }
+    .eigth{
+        width: 300px;
+        height: 280px;
         margin-bottom: 4rem;
     }
 
@@ -1007,23 +1062,22 @@ h1 {
     .sixth h1,
     .seventh h1,
     .eigth h1 {
-        padding: 8px;
+        padding: 0.8rem;
         font-size: 1.8rem;
     }
 
     .one nav {
-        left: 110px;
+        left: 11rem;
         font-size: 1rem;
     }
 
     .one select {
-        width: 70px;
-        right: 150px;
+        width: 7rem;
+        left: 75%;
         padding: 10px 20px;
         border-radius: 40px;
-        margin-right:10px ;
         justify-content: center;
-        font: 110 10px Arial;
+        font: 110 1rem Arial;
     }
 }
 
