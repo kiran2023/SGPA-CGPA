@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="index.html"><img src="images/logo1.png" alt="Logo" class="logo" srcset=""></a>
+
+        <nav class="navbar">
+            <ul class="navbar-lists">
+                <li><a href="index.html" class="navbar-link home-link">Home</a></li>
+                <li><a href="http://www.ksrceresults.com/" target="_blank" class="navbar-link portfolio-link">Semester Results</a></li>
+                <li><a href="https://drive.google.com/file/d/1DgiKoQYXXEvJwqj1XnVFJPet23eoFEg8/view?usp=sharing" download  target="_blank" class="navbar-link project-link">Syllabus</a>
+                </li>
+                <li><a href="contact.html" class="navbar-link contact-link">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="menu-bar">
+            <ion-icon class="menu-icon" name="menu-outline"></ion-icon>
+            <ion-icon class="menu-icon" name="close-outline"></ion-icon>
+        </div>
+    </header>
+
+    <!-- CONTACT US SECTION -->
+
+    <section class="section contact-section">
+        <div class="container">
+            <h3 class="common-heading">Contact Us</h3>
+        </div>
+
+        <div class="container map" style="margin-bottom: 3.2rem;">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3911.933835570356!2d77.72430831479062!3d11.339543451647614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba96f4138c09375%3A0x405a7d329f30110c!2sPS%20Park%2C%20Erode%20Fort%2C%20Erode%2C%20Tamil%20Nadu%20638001!5e0!3m2!1sen!2sin!4v1651581190670!5m2!1sen!2sin"
+
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+        <form action="https://formspree.io/f/xeqnpnke" class="container" method="POST">
+            <div class="grid grid-two-column">
+                <div class="username">
+                    <label for="username"></label>
+                    <input type="text" name="username" placeholder="Username" autocomplete="off" required>
+                </div>
+                <div class="username">
+                    <label for="email"></label>
+                    <input type="email" name="email" placeholder="user@gmail.com" autocomplete="off" required>
+                </div>
+            </div>
+
+            <div class="">
+                <label for="subject"></label>
+                <input type="text" name="subject" placeholder="Subject" required>
+            </div>
+
+            <div class="">
+                <label for="textarea"></label>
+                <textarea type="textarea" cols="30" row="10" placeholder="Textarea" required name="message"></textarea>
+            </div>
+
+            <button class="btn" type="submit">Submit</button>
+        </form>
+    </section>
+
+
+    <!-- FOOTER SECTION -->
+
+    <footer class="footerData">
+        <div class="container grid grid-three-column">
+            <div class="about">
+                <h3>About Website</h3>
+                <p>Upcoming Regulations Will be added soon - (Regulations 2020)</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span>
+                        <a href="http://www.ksrceresults.com/" target="_blank">Semester Result</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span>
+                        <a href="https://drive.google.com/file/d/1DgiKoQYXXEvJwqj1XnVFJPet23eoFEg8/view?usp=sharing"
+                        download target="_blank">Syllabus</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-help">
+                <h3>Have any Queries Feel Free to Reach out Us</h3>
+                <ul>
+                    <li>
+                        <span>
+                            <ion-icon name="location-outline"></ion-icon>
+                        </span>
+                        <a href="#">ERODE,Tamil nadu</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="location-outline"></ion-icon>
+                        </span>
+                        <a href="contact.html" target="_blank">Contact Info</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="call-outline"></ion-icon>
+                        </span>
+                        <a href="tel:+911234567893">1234569878</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </span>
+                        <a href="mailto:cecskiran23@gmail.com">Click Here to Mail Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="container">
+            <div class="f-social-links">
+                <a href="#">
+                    <span>
+                        <ion-icon name="logo-instagram" class="icon"></ion-icon>
+                    </span>
+                </a>
+                <a href="#">
+                    <span>
+                        <ion-icon name="logo-facebook" class="icon"></ion-icon>
+                    </span>
+                </a>
+                <a href="#">
+                    <span>
+                        <ion-icon name="logo-whatsapp" class="icon"></ion-icon>
+                    </span>
+                </a>
+                <a href="#">
+                    <span>
+                        <ion-icon name="logo-github" class="icon"></ion-icon>
+                    </span>
+                </a>
+                <a href="#">
+                    <span>
+                        <ion-icon name="logo-linkedin" class="icon"></ion-icon>
+                    </span>
+                </a>
+                <p style="color:darkgray">&copy;2022 All Rights Reserved by Master Minds - CSE KSRCE</p><br>
+            </div>
+        </section>
+    </footer>
+
+
+    <!-- SCRIPT SECTION -->
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
