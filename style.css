@@ -540,7 +540,7 @@ footer a:active {
     }
 
     .section-hero picture img {
-        max-width: 45%;
+        width: 50rem;
         margin-top: 3.2rem;
     }
 
