@@ -682,6 +682,7 @@ h1 {
     position: absolute;
     right: 0px;
     padding: 1rem;
+    text-align: center;
     border-radius: 25px;
     font: 150 13px Arial;
     -webkit-appearance: none;
