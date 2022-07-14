@@ -681,7 +681,7 @@ h1 {
     display: inline-block;
     position: absolute;
     right: 0px;
-    padding: 8px 20px 8px 40px;
+    padding: 1rem;
     border-radius: 25px;
     font: 150 13px Arial;
     -webkit-appearance: none;
