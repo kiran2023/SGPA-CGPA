@@ -421,7 +421,7 @@ footer {
 }
 
 footer .about p a{
-    color:var(--white);
+    color:var(--helper);
     display:flex;
     justify-content:center;
     font-weight:600;
