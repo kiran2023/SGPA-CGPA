@@ -422,7 +422,9 @@ footer {
 
 footer .about p a{
     color:var(--white);
-    text-align:center;
+    display:flex;
+    justify-content:center;
+    font-weight:600;
 }
 
 footer h3 {
