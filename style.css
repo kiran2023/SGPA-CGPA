@@ -420,6 +420,10 @@ footer {
     transition: all 0.4s linear;
 }
 
+footer .about span p a{
+    color:var(--white);
+}
+
 footer h3 {
     color: var(--white);
     margin-bottom: 2.2rem;
