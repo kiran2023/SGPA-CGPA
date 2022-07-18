@@ -420,7 +420,7 @@ footer {
     transition: all 0.4s linear;
 }
 
-footer .about span p a{
+footer .about p a{
     color:var(--white);
     text-align:center;
 }
